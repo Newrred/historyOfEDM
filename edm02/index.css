@@ -1,0 +1,603 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url("https://use.typekit.net/msc2vbn.css");
+
+
+/* 0000000 preSettings 00000000 */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-family: "termina", sans-serif;
+    user-select: none;
+    cursor: none;
+}
+
+#main {
+    width: 100%;
+    height: 100vmin;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(238, 238, 238);
+}
+
+.vmW-5{width: 5vmin;}
+.vmW-10{width: 10vmin;}
+.vmW-15{width: 15vmin;}
+.vmW-20{width: 20vmin;}
+.vmW-25{width: 25vmin;}
+.vmW-30{width: 30vmin;}
+.vmW-40{width: 40vmin;}
+.vmW-50{width: 50vmin;}
+.vmW-60{width: 60vmin;}
+.vmW-70{width: 70vmin;}
+.vmW-80{width: 80vmin;}
+.vmW-90{width: 90vmin;}
+.vmW-100{width: 100vmin;}
+
+.pxW-1920f{width: 200vmin; display: flex; flex-direction: row;  justify-content: flex-start;}
+.pxW-1920{width: 200vmin;} /* 1등분 */
+.pxW-960{width: 100vmin;} 
+.pxW-960f{width: 200vmin; display: flex; justify-content: start; align-items: start;}   /* 2등분 */
+.pxW-640{width: 66.6vmin;}   /* 3등분 */
+.pxW-480{width: 50vmin;}   /* 4등분 */
+.pxW-384{width: 40vmin;}   /* 5등분 */
+
+.vmHH-4{height: 4vmin;}
+.vmH-5{width: 5vmin;}
+.vmH-8{width: 8vmin;}
+.vmH-10{width: 10vmin;}
+.vmH-15{width: 15vmin;}
+.vmH-20{width: 20vmin;}
+.vmH-25{width: 25vmin;}
+.vmH-30{width: 30vmin;}
+.vmH-40{width: 40vmin;}
+.vmH-45{width: 45vmin;}
+.vmH-50{width: 50vmin;}
+.vmH-60{width: 60vmin;}
+.vmH-70{width: 70vmin;}
+.vmH-80{width: 80vmin;}
+.vmH-82{width: 81vmin;}
+.vmH-90{width: 90vmin;}
+.vmH-100{width: 100vmin;}
+.vmH-200{width: 200vmin;}
+.vmH-300{width: 300vmin;}
+
+.hP-05{height: 0.5%;}
+.hP-2{height: 0.5%;}
+.hP-4{height:4%;}
+.hP-8{height:8%;}
+.hP-9{height:9.5%;}
+.hP-10{height:10%;}
+.hP-16{height:12.8%;}
+.hP-24{height:24%;}
+.hP-32{height:26.6%;}
+.hP-40{height:40%;}
+.hP-48{height:48%;}
+.hP-50{height:50%;}
+.hP-56{height:56%;}
+.hP-64{height:64%;}
+.hP-72{height:72%;}
+.hP-80{height:80%;}
+.hP-82{height:82%;}
+.hP-85{height:85%;}
+.hP-90{height:90%;}
+.hP-100{height:100%;}
+
+
+#body {
+    overflow-x: hidden;
+}
+
+#year01{
+    position:sticky;
+    font-weight: 800;
+    font-size: 10vmin;
+    transform: translate(0%, -20%);
+    text-align: left;
+}
+
+#EDM01{
+    position:sticky;
+    font-weight: 800;
+    font-size: 10vmin;
+    transform: translate(0%, 70%);
+    text-align: left;
+    filter: blur(0px) opacity(0%) brightness(100%) contrast(100%);
+    background-color:rgb(238, 238, 238);
+    color: rgb(238, 238, 238);
+    
+}
+#barText01 :hover{
+    filter: blur(2px) opacity(50%) brightness(230%) contrast(200%);
+    background-color:rgba(255, 163, 163, 0.257);
+    color: blue;
+}
+
+#p02{
+    font-family: "termina", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align:start;
+    font-size: 3vmin;
+    font-weight: 600;
+}
+#p03{
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align:start;
+    font-size: 2.5vmin;
+    font-weight: 600;
+    transform: translate(2vmin,00%);
+}
+#p03-2{
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+#Jtrs01{
+    transform: translate(0vmin,6%);
+}
+#p04{
+    font-weight: 300;
+    font-size: 1.5vmin;
+}
+#p0402{
+    font-weight: 300;
+    font-size: 1.5vmin;
+    transform: translate(3%,40%);
+}
+#p05{
+    font-family: 'Noto Sans KR', sans-serif;
+    transform: translate(2vmin,-20%);
+    font-size: 2vmin;
+    font-weight: 400;
+}
+#p05-2{
+    font-family: 'Noto Sans KR', sans-serif;
+    transform: translate(2vmin,-10%);
+    font-size: 2vmin;
+    font-weight: 400;
+}
+#p05-3{
+    font-family: 'Noto Sans KR', sans-serif;
+    transform: translate(2vmin,10%);
+    font-size: 2vmin;
+    font-weight: 400;
+}
+#p05-4{
+    font-family: 'Noto Sans KR', sans-serif;
+    transform: translate(5vmin,50%);
+    font-size: 2vmin;
+    font-weight: 400;
+}
+#p06{
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2vmin;
+    font-weight: 400;
+    transform: translate(-35vmin,60%);
+}
+#p06-2{
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.5vmin;
+    font-weight: 100;
+    transform: translate(-38vmin,60%);
+}
+#p06-3{
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2.5vmin;
+    font-weight: 600;
+    transform: translate(-38vmin,60%);
+}
+
+/* 0000000 preSettings 00000000 */
+
+
+
+
+/* ---------- headBarStick ---------- */
+
+#head{
+    display: inline;
+}
+#mainBar{
+    height: 12vmin;
+    border-color: rgb(184, 184, 184);
+    border-width: 0vmin;
+    border-style:double none double none;
+    display: flex;
+    justify-content:left;
+    font-size: 3.3vmin;
+    font-weight: 500;
+    box-shadow: 0px 5px 2px 0px rgb(255, 0, 247);
+
+}
+#barText01{
+    display: flex;
+    justify-content:left;
+    align-items:start;
+    position: relative;
+    height: 10vmin;
+    line-height: 120%;
+}
+#barText02{
+    display: flex;
+    justify-content:left;
+    align-items:start;
+    position: relative;
+    height: 10vmin;
+}
+#genreBox{
+    border-style: solid;
+}
+#yearBox{
+    background-color: rgb(238, 238, 238);
+    justify-content: center;
+    align-items:center;
+    height: 50%;
+    border-style: solid;
+}
+
+/* -- loadBar -- */
+
+#loadBar{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+}
+#loadBarCover{
+    margin-top: 1.2vmin;
+    background-color: rgb(238, 238, 238);
+    border-style: solid;
+    border-width: 0.3vmin;
+    width: 36vmin;
+    height: 3vmin;
+}
+#loadBar01{
+    background-color: black;
+    width: 1vmin;
+    height: 2.6vmin;
+}
+
+
+/* ---------- mainContents ----------*/
+
+#mainBox {
+    display: flex;
+    flex-direction: row;
+    height: 100vmin;
+}
+#cContainer{
+    left: 0px;
+    height: 100vmin;
+    display: flex;
+    position: relative;
+}
+#cContainer div{
+    border-color: rgba(128, 128, 128, 0);
+    border-width: 0.1px;
+    border-style:none none solid none;
+}
+#inl{
+    display:inline;
+}
+#mText01{
+    font-family: "termina", sans-serif;
+    color: rgb(238, 238, 238);
+    font-size: 25vmin;
+    font-weight: 400;
+    text-align:left;
+    transform: translate(-40%,40%);
+}
+#mText02{
+    font-family: "termina", sans-serif;
+    color: rgb(238, 238, 238);
+    font-size: 6vmin;
+    font-weight: 400;
+    text-align:left;
+    transform: translate(-5%,-4%);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+#mText02-11{
+    font-family: "termina", sans-serif;
+    color: rgb(238, 238, 238);
+    font-size: 6vmin;
+    font-weight: 400;
+    text-align:left;
+    transform: translate(-19.5%,-4%);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#c1980Row{
+    display: inline;
+}
+#mText02-1{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(238, 238, 238);
+    font-size: 6vmin;
+    font-weight: 400;
+    text-align:left;
+    transform: translate(-12%,-4%);
+}
+#mText03{
+    font-family: "termina", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 3vmin;
+    font-weight: 400;
+    text-align:left;
+    transform: translate(-16%,0%);
+}
+#mText03 p{
+    transform: translate(0,50%);
+}
+#mText04{
+    font-family: "termina", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 2vmin;
+    font-weight: 400;
+    text-align:left;
+    transform: translate(0%,0%);
+}
+
+.cursor {
+    pointer-events: none;
+    width: 50px;
+    height: 50px;
+    background-image: url(imgs/hdp.png);
+    background-size: 50px;
+    border-radius: 50px;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    z-index: 100;
+}
+
+
+/* ---------- 1960 ----------*/
+#c1960{
+    width: 200vmin;
+    height: 100%;
+    position: relative;
+}
+#c1960Line{
+    background-color: black;
+    width: 100%;
+    height: 0.5vmin;
+}
+#lp01{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(imgs/lp01.png);
+}
+#trans002{
+    transform: translate(0,50%);
+    font-weight: 500;
+}
+
+
+
+/* ---------- 1970 ----------*/
+#c1970{
+    width: 200vmin;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    position: relative;
+}
+#lp02{
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: url(imgs/lp01.png);
+    transform: translate(-50%,0);
+}
+#c1970Line{
+    background-color: black;
+    width: 100%;
+    height: 0.5vmin;
+    z-index: -999;
+}
+#boom{
+    border-left: #ff0000;
+    border-style:dashed;
+    border-color: rgb(255, 194, 194);
+    background-color: #ffffff;
+    transform: translate(0%,-1%);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 0px 10px 0px rgba(0, 0, 0, 0.723);
+}
+#boom :hover {
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size:29vmin;
+}
+#boom :hover +#jText{
+    background-color: #ff0000;
+    display: block;
+    width: 50vmin;
+    position: absolute;
+    top: 40%;
+    left: -50vmin;
+    color: white;
+}
+
+#boom p{
+    color: rgb(0, 0, 0);
+    font-size: 26vmin;
+}
+#jText{
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 0;
+    display: none;
+    text-align: center;
+    font-size:5vmin;
+}
+
+
+
+
+
+/* ---------- 1980 ----------*/
+#c1980{
+    width: 200vmin;
+    height: 100%;
+    position: relative;
+    transform: translate(-10%,0);
+}
+#cass01{
+    background-image: url(imgs/cass01.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    transform: translate(-10vmin,0);
+}
+#bgGrdR{
+    background-image: linear-gradient(to right, black 40%, #ff0000 70%,  #ff000000 90%);
+}
+#bgGrdG{
+    background-image: linear-gradient(to right, black 40%, #00ff00 70%, #00ff0000 90%);
+}
+#bgGrdB{
+    background-image: linear-gradient(to right, black 40%, #0000ff 70%, #0000ff00 90%);
+}
+#c1980Line{
+    background-image: linear-gradient(to right, black 40%, #0000ff 70%, #0000ff00 90%);
+    width: 100%;
+    height: 0.5vmin;
+}
+
+
+
+/* ---------- 1990 ----------*/
+#c1990{
+    width: 140vmin;
+    height: 100%;
+    position: relative;
+}
+#cd01{
+    transform: translate(-100%,0%);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(imgs/cd01.png);
+    z-index: 999;
+}
+#cd01:hover{
+    background-image: url(imgs/cd03.png);
+}
+.trans01{
+    transform: translate(-48%, 0%); display: flex; justify-content: space-between;
+}
+.trans01-1{
+    transform: translate(-44%, 0%); display: flex; justify-content: space-between;
+}
+.trans02{
+    transform: translate(-41%, 0%); display: flex; justify-content: space-between;
+}
+.trans02-1{
+    transform: translate(-39%, 0%); display: flex; justify-content: space-between;
+}
+.trans03{
+    transform: translate(-37%, 0%); display: flex; justify-content: space-between;
+}
+.trans03-1{
+    transform: translate(-36%, 0%); display: flex; justify-content: space-between;
+}
+.trans04{
+    transform: translate(-34%, 0%); display: flex; justify-content: space-between;
+}
+.trans05{
+    transform: translate(-33.5%, 0%); display: flex; justify-content: space-between;
+}
+.fromB{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+#bgGrdR01{
+    background-image: linear-gradient(to right, #ff0000 25%,  #ff000000);
+}
+#bgGrdR02{
+    background-image: linear-gradient(to right, #ff2f00 25%,  #ff000000);
+}
+#bgGrdR03{
+    background-image: linear-gradient(to right, #ff9900 25%,  #ff000000);
+}
+#bgGrdR04{
+    background-image: linear-gradient(to right,#ccff00 25%,  #ff000000);
+}
+#bgGrdG01{
+    background-image: linear-gradient(to right, #00ff00 25%, #00ff0000);
+}
+#bgGrdG02{
+    background-image: linear-gradient(to right, #00ffa6 25%, #00ff0000);
+}
+#bgGrdG03{
+    background-image: linear-gradient(to right, #00ffee 25%, #00ff0000);
+}
+#bgGrdG04{
+    background-image: linear-gradient(to right, #0091ff 25%, #00ff0000);
+}
+#bgGrdB01{
+    background-image: linear-gradient(to right, #0000ff 25%, #0000ff00);
+}
+#bgGrdB02{
+    background-image: linear-gradient(to right, #ea00ff 25%, #0000ff00);
+}
+
+
+
+/* ---------- 2010 ----------*/
+#c2010{
+    width:160vmin;
+    height: 80%;
+    position: relative;
+    display: flex;
+}
+#p01-2010{
+    
+    width: 80vmin;
+    font-size: 1vmin;
+    height: 100%;
+}
+#p01-2010 p{
+    transform: translate(0,100%);
+}
+
+#c2010-2{
+    width: 80vmin;
+    font-size: 1vmin;
+    height: 100%;
+    position: relative;
+}
+#c2010-2 p{
+    transform: translate(0,100%);
+}
+.spaceRow{display: flex; justify-content: space-between;}
+.space-5{width: 5%;}
+
+
+
+/* ---------- 2020 ----------*/
+#c2020{
+    width: 100vmin;
+    height: 100%;
+    position: relative;
+}
+
+
+
+
